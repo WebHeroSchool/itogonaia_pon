@@ -1,74 +1,74 @@
 .logo {
-  font: 30px/36px 'montserratblack', arial, helvetica, sans-serif;
+  font: 30px/36px montserratblack, arial, helvetica, sans-serif;
   font-weight: 500;
 }
 
 .main-content__header {
-  font: 80px/82px 'montserratbold', arial, helvetica, sans-serif;
+  font: 80px/82px montserratbold, arial, helvetica, sans-serif;
   font-weight: 700;
 }
 
 .main-content__text {
-  font: 15px/21px 'montserratblack', arial, helvetica, sans-serif;
+  font: 15px/21px montserratblack, arial, helvetica, sans-serif;
   font-weight: 400;
 }
 
 .main-content__button {
-  font: 13px 'montserratblack', arial, helvetica, sans-serif;
+  font: 13px montserratblack, arial, helvetica, sans-serif;
   font-weight: 500;
 }
 
 .bag__text_header {
-  font: 40px/41px 'montserratbold', arial, helvetica, sans-serif;
+  font: 40px/41px montserratbold, arial, helvetica, sans-serif;
   font-weight: 700;
 }
 
 .bag__text_subtitle {
-  font: 16px/16px 'montserratbold', arial, helvetica, sans-serif;
+  font: 16px/16px montserratbold, arial, helvetica, sans-serif;
   font-weight: 700;
 }
 
 .bag__text_text {
-  font: 15px/21px 'montserratblack', arial, helvetica, sans-serif;
+  font: 15px/21px montserratblack, arial, helvetica, sans-serif;
   font-weight: 400;
 }
 
 .bag__text-price {
-  font: 40px/56px 'montserratbold', arial, helvetica, sans-serif;
+  font: 40px/56px montserratbold, arial, helvetica, sans-serif;
   font-weight: 700;
 }
 
 .bag__button_add {
-  font: 13px 'montserratblack', arial, helvetica, sans-serif;
+  font: 13px montserratblack, arial, helvetica, sans-serif;
   font-weight: 500;
 }
 
 .bag__button-next_text {
-  font: 13px/16px 'montserratblack', arial, helvetica, sans-serif;
+  font: 13px/16px montserratblack, arial, helvetica, sans-serif;
   font-weight: 500;
 }
 
 .look__text_header {
-  font: 40px/41px 'montserratbold', arial, helvetica, sans-serif;
+  font: 40px/41px montserratbold, arial, helvetica, sans-serif;
   font-weight: 700;
 }
 
 .look__text_subtitle {
-  font: 16px/16px 'montserratbold', arial, helvetica, sans-serif;
+  font: 16px/16px montserratbold, arial, helvetica, sans-serif;
   font-weight: 700;
 }
 
 .look__text_text {
-  font: 15px/21px 'montserratblack', arial, helvetica, sans-serif;
+  font: 15px/21px montserratblack, arial, helvetica, sans-serif;
   font-weight: 400;
 }
 
 .look_button_add {
-  font: 13px 'montserratblack', arial, helvetica, sans-serif;
+  font: 13px montserratblack, arial, helvetica, sans-serif;
   font-weight: 500;
 }
 
 .look_button-next_text {
-  font: 13px/16px 'montserratblack', arial, helvetica, sans-serif;
+  font: 13px/16px montserratblack, arial, helvetica, sans-serif;
   font-weight: 500;
 }
