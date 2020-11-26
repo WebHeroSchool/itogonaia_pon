@@ -8,7 +8,6 @@ body {
 
 .main {
   background: linear-gradient(90deg, black 32%, transparent 32%);
-  height: 900px;
 }
 
 .header {
@@ -18,26 +17,27 @@ body {
 }
 
 .logo {
-  font: 30px/36px montserratregular, arial, helvetica, sans-serif;
+  font: 31px/45px montserratregular, arial, helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.07em;
   text-align: center;
-  padding: 36px 0;
+  padding: 34px 10px;
   max-width: 98px;
   max-height: 37px;
   color: white;
 }
 
 .header__button {
-  font: 20px/24px montserratregular, arial, helvetica, sans-serif;
+  font: 20px/32px montserratregular, arial, helvetica, sans-serif;
   display: flex;
   align-items: center;
-  padding: 42px 0px;
+  padding: 42px 1px;
   margin-right: 49%;
   border: none;
   background-color: transparent;
   cursor: pointer;
   color: white;
+  letter-spacing: 0.07em;
 }
 
 .header__menu {
@@ -67,8 +67,8 @@ body {
 }
 
 .main-image__image {
-  margin-left: 162px;
-  padding-top: 50px;
+  margin-left: 186px;
+  padding-top: 53px;
   line-height: 1.25;
   transition: 0.5s;
   float: left;
@@ -76,21 +76,21 @@ body {
 }
 
 .main-content__header {
-  font: 80px/82px montserratbold, arial, helvetica, sans-serif;
-  font-weight: 700;
+  font: bold 77px/79px montserratbold, arial, helvetica, sans-serif;
+  font-weight: 800;
   padding-top: 100px;
-  margin-bottom: 26px;
+  margin-bottom: 17px;
 }
 
 .main-content__text {
-  font: 15px/21px montserratregular, arial, helvetica, sans-serif;
+  font: 17px/20px montserratregular, arial, helvetica, sans-serif;
   font-weight: 400;
-  margin-bottom: 36px;
+  margin-bottom: 42px;
 }
 
 .main-content__button,
 .main-content__button_another {
-  font: 13px montserratregular, arial, helvetica, sans-serif;
+  font: 14px montserratregular, arial, helvetica, sans-serif;
   font-weight: 500;
   margin-bottom: 156px;
   cursor: pointer;
@@ -98,16 +98,19 @@ body {
   height: 44px;
   width: 203px;
   text-transform: uppercase;
+  transform: translate(-5px);
 }
 
 .main-content__button_another {
   border: none;
+  transform: translate(30px);
 }
 
 .main-content__button_arrow {
   border: none;
   height: 0;
   width: 0;
+  transform: translate(24px, 1px);
 }
 
 .link {
@@ -122,7 +125,72 @@ body {
 }
 
 .scroll {
-  margin-left: 36%;
+  margin-left: 35%;
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+  	background: url(img/8.png)  no-repeat scroll;
+    background-size: cover;
+    background-position: 0px 70px;
+    position: absolute;
+    display: block;
+    width: 375px;
+    height: 597px;
+  }
+
+  .header__menu {
+  	transform: translateX(-54px);
+  	background-color: #f5f5f5;
+    height: 70px;
+    width: 70px;
+  }
+
+  .header__menu:before,
+  .header__menu:after {
+  	transform: translateX(-10px);
+  }
+
+  .header__menu:before {
+    top: 39px;
+  }
+
+  .header__menu:after {
+    bottom: 0;
+    top: 26px;
+  }
+
+  .main-content__header {
+    font-size: 36px;
+    line-height: 36px;
+    margin-left: 8%;
+    transform: translateY(-264px);
+    position: relative;
+  }
+
+  .logo {
+  	color: black;
+  	text-align: center;
+  	transform: translateY(-16px);
+  }
+
+  .header__button {
+  	display: none;
+  }
+
+  .link,
+  .main-content__button,
+  .main-content__button_another,
+  .main-content__text,
+  .main-image__image {
+    visibility: hidden;
+  }
+
+  .bag {
+  	background: #fae8e4;
+  	transform: translateY(580px);
+  }
+
 }
 
 .bag__text_header {
