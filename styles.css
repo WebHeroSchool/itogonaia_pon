@@ -446,7 +446,7 @@ body {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
   .main {
   	height: 709px;
   }
@@ -481,7 +481,7 @@ body {
   }
 
   .main-content__button_arrow {
-  	margin-left: -121px;
+  	margin-left: -21px;
   }
 
   .scroll {
@@ -791,8 +791,6 @@ body {
 @media screen and (max-width: 375px) {
   
   .main {
-  	background: url(img/pete-bellis-unsplash.png) no-repeat scroll;
-    background-size: cover;
     background-position: -11px 9px;
     position: absolute;
     display: block;
@@ -803,26 +801,48 @@ body {
   .main-content__header {
     font-size: 48px;
     line-height: 52px;
-    margin-left: 5%;
-    transform: translateY(-250px);
-    position: relative;
+    margin-left: 7%;
+    transform: translateY(181px);
+  }
+  
+  .header {
+    height: 67px;
   }
 
+  .header__menu {
+  	background-color: #f5f5f5;
+    height: 69px;
+    width: 71px;
+    transform: translateX(2px);
+  }
+
+  .header__menu:before,
+  .header__menu:after {
+  	content: '';
+    width: 27px;
+    height: 2px;
+    margin-left: 28px;
+  }
+
+  .header__menu:before {
+    top: 37px;
+  }
+
+  .header__menu:after {
+    top: 29px;
+  }
+
+  .scroll {margin:0;}
+
   .logo {
-  	color: black;
   	transform: translateY(-23px);
     font-size: 30px;
     margin-left: 3%;
   }
 
   .main__vector-image {
-  	visibility: visible;
-  	margin-left: -625px;
-    margin-top: 488px;
-  }
-
-  .header__button {
-  	display: none;
+  	margin-left: -58px;
+    margin-top: 490px;
   }
 
   .bag {
@@ -835,59 +855,55 @@ body {
   .bag__image_pink {
     width: 222px;
     height: 333px;
-    margin-left: -465px;
+    margin-left: -77px;
     margin-top: -61px;
   }
 
   .bag__text{
-  	display: inline-block;
-  	background: url(img/Rectangle4.png) no-repeat;
-  	background-position: 0 259px;
-    background-size: 321px 351px;
-    position: absolute;
-    margin-left: 21px;
+    background-position: 0 262px;
+    background-size: 514px 281px;
+    width: 257px;
+    transform: translateX(28px);
+    margin: 0;
   }
 
   .bag__text_header {
   	font-size: 22px;
-    margin-top: 272px;
-    margin-left: 31px;
+    margin-top: 274px;
+    margin-left: -63px;
   }
 
   .bag__text-price {
-  	position: absolute;
-    margin-left: -88px;
-    margin-top: 596px;
+    margin-left: -151px;
+    margin-top: 409px;
     font-size: 23px;
   }
 
   .bag__text_subtitle {
   	font-size: 10px;
-    margin-left: 32px;
+    margin-left: -62px;
     margin-top: 299px;
   }
 
   .bag__text_text {
   	font-size: 10px;
-    margin-top: 324px;
-    margin-left: 32px;
+    margin-top: 326px;
+    margin-left: -61px;
     line-height: 13px;
     width: 244px;
-    letter-spacing: 0.01em;
   }
 
   .bag__button-image {
-    transform: translate(-131px, 296px);
-    display: inline-block;
-    justify-content: space-between;
-    margin-left: -11px;
+    transform: translate(-99px, -231px);
+    margin-left: -12px;
+    font-size: 103px;
   }
 
   .bag__button_add {
-  	margin-left: 31px;
+  	margin-left: -230px;
     width: 260px;
     height: 38px;
-    margin-top: 488px;
+    margin-top: 659px;
     font-size: 14px;
   }
 
@@ -900,27 +916,22 @@ body {
   .look__image {
   	width: 351px;
     height: 259px;
-    margin-left: -42px;
+    margin-left: -38px;
     margin-top: 18px;
-    z-index: 2;
-    position: absolute;
   }
   
   .look__background {
-  	position: relative;
-    z-index: 1;
     margin-top: -18px;
     height: 598px;
     width: 41px;
-    margin-left: 93px;
+    margin-left: 96px;
   }
   
   .look__text {
-  	margin-left: 37px;
-    background: url(img/Rectangle11.png) no-repeat;
+  	margin-left: 43px;
     background-size: 306px 195px;
     background-position: 0 275px;
-    z-index: 2;
+    width: 300px;
   }
 
   .look__text_header {
@@ -947,18 +958,16 @@ body {
   
   .look__button_add {
   	transform: translateY(-31px);
-    margin-left: -127px;
+    margin-left: -99px;
     width: 261px;
     font-size: 14px;
     height: 39px;
   }
 
   .look__button-next {
-  	display: block;
     margin-top: -69px;
-    margin-left: 26px;
     letter-spacing: 0.05em;
-    z-index: 2;
+    margin-left: -56px;
   }
 
   .look__button-next_text {
@@ -969,7 +978,12 @@ body {
   }
   
   .look__button-next_image{
-  	margin-top: 22px;
-    margin-left: 51px;
+  	margin-top: 24px;
+    margin-left: -29px;
+  }
+
+  .footer {
+  	margin: 0;
+    transform: translateX(-402px);
   }
 }
