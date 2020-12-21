@@ -657,7 +657,7 @@ body {
     background-size: 637px 563px;
     position: absolute;
     margin-left: -46px;
-    width: 800px;
+    width: 637px;
   }
 
   .bag__text_header {
@@ -671,6 +671,7 @@ body {
     margin-left: -73px;
     margin-top: 844px;
     font-size: 42px;
+    width: 76px;
   }
 
   .bag__text_subtitle {
@@ -732,7 +733,7 @@ body {
     background-size: 609px 390px;
     background-position: 0 547px;
     z-index: 2;
-    width: 800px;
+    width: 600px;
   }
 
   .look__text_header {
@@ -770,7 +771,7 @@ body {
     margin-top: 188px;
     letter-spacing: 0.07em;
     z-index: 2;
-    margin-left: -234px;
+    margin-left: -123px;
   }
 
   .look__button-next_text {
@@ -782,7 +783,7 @@ body {
   
   .look__button-next_image{
   	margin-top: 62px;
-    margin-left: -137px;
+    margin-left: 24px;
   }
 
 
@@ -862,33 +863,33 @@ body {
   .bag__text{
     background-position: 0 262px;
     background-size: 514px 281px;
-    width: 257px;
+    width: 320px;
     transform: translateX(28px);
-    margin: 0;
+    margin: 1px;
   }
 
   .bag__text_header {
   	font-size: 22px;
     margin-top: 274px;
-    margin-left: -63px;
+    margin-left: 2px;
   }
 
   .bag__text-price {
-    margin-left: -151px;
+    margin-left: -81px;
+    width: 52px;
     margin-top: 409px;
     font-size: 23px;
   }
 
   .bag__text_subtitle {
   	font-size: 10px;
-    margin-left: -62px;
+    margin-left: 2px;
     margin-top: 299px;
   }
 
   .bag__text_text {
   	font-size: 10px;
     margin-top: 326px;
-    margin-left: -61px;
     line-height: 13px;
     width: 244px;
   }
@@ -900,7 +901,7 @@ body {
   }
 
   .bag__button_add {
-  	margin-left: -230px;
+  	margin-left: -221px;
     width: 260px;
     height: 38px;
     margin-top: 659px;
