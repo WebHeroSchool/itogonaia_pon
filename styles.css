@@ -667,7 +667,6 @@ body {
   }
 
   .bag__text-price {
-  	position: absolute;
     margin-left: -73px;
     margin-top: 844px;
     font-size: 42px;
