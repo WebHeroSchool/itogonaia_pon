@@ -647,7 +647,6 @@ body {
   .footer {
     transform: translateX(-260px);
   }
-
 }
 
 @media screen and (max-width: 768px) {
