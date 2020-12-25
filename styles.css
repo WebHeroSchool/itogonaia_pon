@@ -242,6 +242,7 @@ body {
   background: none;
   display: flex;
   height: 17px;
+  width: 10px;
 }
 
 .bag__button-next_text {
@@ -383,7 +384,7 @@ body {
 }
 
 @media screen and (max-width: 1281px) {
-  
+
   .main {
   	height: 808px;
   }
@@ -391,12 +392,12 @@ body {
   .main-image__image {
   	width: 36%;
   }
-  
+
   .main-content__header {
   	font-size: 50px;
     margin-top: -20px;
   }
-  
+
   .bag {
   	height: 847px;
   }
@@ -422,12 +423,12 @@ body {
   .bag__text_text {
     margin-left: -86px;
   }
-  
+
   .bag__text-price {
     margin-top: -148px;
     margin-left: 178px;
   }
-  
+
   .bag__button_add {
     margin-top: 187px;
   }
@@ -435,7 +436,7 @@ body {
   .bag__button-next {
     transform: translate(-38px, 382px);
   }
-  
+
   .look__image {
   	width: 675px;
   }
@@ -547,6 +548,106 @@ body {
   .footer {
   	transform: translateX(-122px);
   }
+}
+
+@media screen and (max-width: 1116px) {
+  .bag__image_pink {
+    width: 79%;
+    margin-left: -280px;
+  }
+
+  .bag__image_grey {
+    height: 41%;
+  }
+
+  .bag__text {
+    transform: translateX(-18px);
+  }
+
+  .bag__text_header,
+  .bag__text_subtitle,
+  .bag__text_text {
+    margin-left: 50px;
+  }
+
+  .bag__text-price {
+    margin-left: 290px;
+  }
+
+  .bag__button-next {
+    transform: translate(-103px, 382px);
+  }
+
+  .bag__button-next_image {
+    margin-left: -26px;
+  }
+
+  .footer {
+    transform: translateX(-147px);
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .main-content__button_another {
+    position: relative;
+    z-index: 2;
+  }
+
+  .main-content__button_arrow {
+    margin-left: -63px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .bag__image_grey {
+    margin-left: 3px;
+  }
+
+  .bag__image_pink {
+    width: 89%;
+    margin-left: -238px;
+  }
+
+  .bag__button-next {
+    transform: translate(-120px, 382px);
+  }
+
+  .look__image {
+    margin-left: -43px;
+  }
+
+  .look__background {
+    margin-left: 199px;
+  }
+
+  .look__text {
+    margin-left: -43px;
+    background-size: 424px 321px;
+    width: 500px;
+  }
+
+  .look__text_header,
+  .look__text_subtitle,
+  .look__text_text {
+    margin-left: 20px;
+  }
+
+  .look__text_text {
+    width: 355px;
+  }
+
+  .look__button-next {
+    margin-left: -201px;
+  }
+
+  .look__button-next_image {
+    margin-left: -35px;
+  }
+
+  .footer {
+    transform: translateX(-260px);
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -716,7 +817,7 @@ body {
     z-index: 2;
     position: absolute;
   }
-  
+
   .look__background {
   	position: relative;
     z-index: 1;
@@ -725,7 +826,7 @@ body {
     width: 82px;
     margin-left: 198px
   }
-  
+
   .look__text {
   	margin-left: 100px;
     background: url(img/Rectangle11.png) no-repeat;
@@ -756,7 +857,7 @@ body {
     letter-spacing: 0.01em;
     width: 470px;
   }
-  
+
   .look__button_add {
   	transform: translateY(-18px);
     margin-left: -76px;
@@ -779,17 +880,29 @@ body {
     text-align: start;
     line-height: 30px;
   }
-  
+
   .look__button-next_image{
   	margin-top: 62px;
     margin-left: 24px;
   }
+}
 
+@media screen and (max-width: 588px) {
+  .bag__text {
+    transform: translateX(109px);
+  }
 
+  .bag__text_header,
+  .bag__text_subtitle {
+    width: 350px;
+  }
+
+  .footer {
+    transform: translateX(-147px);
+  }
 }
 
 @media screen and (max-width: 375px) {
-  
   .main {
     background-position: -11px 9px;
     position: absolute;
@@ -804,7 +917,7 @@ body {
     margin-left: 7%;
     transform: translateY(181px);
   }
-  
+
   .header {
     height: 67px;
   }
@@ -855,7 +968,7 @@ body {
   .bag__image_pink {
     width: 222px;
     height: 333px;
-    margin-left: -77px;
+    margin-left: -230px;
     margin-top: -61px;
   }
 
@@ -871,10 +984,11 @@ body {
   	font-size: 22px;
     margin-top: 274px;
     margin-left: 2px;
+    width: 182px;
   }
 
   .bag__text-price {
-    margin-left: -81px;
+    margin-left: -86px;
     width: 52px;
     margin-top: 409px;
     font-size: 23px;
@@ -884,6 +998,7 @@ body {
   	font-size: 10px;
     margin-left: 2px;
     margin-top: 299px;
+    width: 198px;
   }
 
   .bag__text_text {
@@ -900,7 +1015,7 @@ body {
   }
 
   .bag__button_add {
-  	margin-left: -221px;
+  	margin-left: -229px;
     width: 260px;
     height: 38px;
     margin-top: 659px;
@@ -919,14 +1034,14 @@ body {
     margin-left: -38px;
     margin-top: 18px;
   }
-  
+
   .look__background {
     margin-top: -18px;
     height: 598px;
     width: 41px;
     margin-left: 96px;
   }
-  
+
   .look__text {
   	margin-left: 43px;
     background-size: 306px 195px;
@@ -955,7 +1070,7 @@ body {
     letter-spacing: 0.01em;
     width: 229px;
   }
-  
+
   .look__button_add {
   	transform: translateY(-31px);
     margin-left: -99px;
@@ -976,7 +1091,7 @@ body {
     text-align: start;
     line-height: 19px;
   }
-  
+
   .look__button-next_image{
   	margin-top: 24px;
     margin-left: -29px;
