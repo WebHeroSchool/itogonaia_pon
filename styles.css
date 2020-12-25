@@ -7,7 +7,7 @@ body {
 }
 
 .main {
-  background: linear-gradient(90deg, black 32%, transparent 32%);
+  background: linear-gradient(90deg, black 32%, transparent 33%);
   height: 900px;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  font: 31px/45px montserratregular, arial, helvetica, sans-serif;
+  font: 31px/45px 'montserratregular', arial, helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.07em;
   text-align: center;
@@ -29,10 +29,10 @@ body {
 }
 
 .header__button {
-  font: 20px/32px montserratregular, arial, helvetica, sans-serif;
+  font: 20px/32px 'montserratregular', arial, helvetica, sans-serif;
   display: flex;
   align-items: center;
-  padding: 41px 0px;
+  padding: 38px 0px;
   margin-right: 50%;
   border: none;
   background-color: transparent;
@@ -77,14 +77,14 @@ body {
 }
 
 .main-content__header {
-  font: bold 77px/79px montserratbold, arial, helvetica, sans-serif;
+  font: bold 77px/79px 'montserratbold', arial, helvetica, sans-serif;
   font-weight: 800;
   padding-top: 100px;
   margin-bottom: 17px;
 }
 
 .main-content__text {
-  font: 17px/21px montserratregular, arial, helvetica, sans-serif;
+  font: 17px/21px 'montserratregular', arial, helvetica, sans-serif;
   font-weight: 400;
   margin-bottom: 39px;
   overflow: hidden;
@@ -94,7 +94,7 @@ body {
 
 .main-content__button,
 .main-content__button_another {
-  font: 14px montserratregular, arial, helvetica, sans-serif;
+  font: 14px 'montserratregular', arial, helvetica, sans-serif;
   font-weight: 500;
   margin-bottom: 156px;
   cursor: pointer;
@@ -168,18 +168,19 @@ body {
 .bag__text {
   margin-left: 55px;
   background: url(img/Rectangle4.png) no-repeat;
-  background-size: 488px 556px;
+  background-size: 512px 556px;
   background-position: 0px 168px;
+  width: 482px;
 }
 
 .bag__text_header {
-  font: 44px/33px montserratbold, arial, helvetica, sans-serif;
+  font: 44px/33px 'montserratbold', arial, helvetica, sans-serif;
   font-weight: 700;
   margin-top: 219px;
 }
 
 .bag__text_subtitle {
-  font: 16px/16px montserratbold, arial, helvetica, sans-serif;
+  font: 16px/16px 'montserratbold', arial, helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -199,10 +200,10 @@ body {
 }
 
 .bag__text-price {
-  font: 40px/56px montserratbold, arial, helvetica, sans-serif;
+  font: 40px/56px 'montserratbold', arial, helvetica, sans-serif;
   font-weight: 700;
   margin-left: 290px;
-  transform: translateY(-188px);
+  transform: translateY(-230px);
 }
 
 .bag__button {
@@ -218,7 +219,7 @@ body {
 }
 
 .bag__button_add {
-  font: 14px montserratregular, arial, helvetica, sans-serif;
+  font: 14px 'montserratregular', arial, helvetica, sans-serif;
   font-weight: 500;
   margin-left: 169px;
   height: 44px;
@@ -226,18 +227,21 @@ body {
   background: none;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  transform: translateY(-180px);
+  transform: translateY(-221px);
 }
 
 .bag__button-image {
   background: none;
-  display: inline-block;
-  border: none;
-  transform: translate(-117px, -85px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    transform: translate(23px, -70px);
+    width: 47px;
 }
 
 .bag__button-next {
-  transform: translate(-76px, 382px);
+  transform: translate(-98px, 382px);
   border: none;
   background: none;
   display: flex;
@@ -246,7 +250,7 @@ body {
 }
 
 .bag__button-next_text {
-  font: 13px/16px montserratregular, arial, helvetica, sans-serif;
+  font: 13px/16px 'montserratregular', arial, helvetica, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   width: 267px;
@@ -290,7 +294,7 @@ body {
 }
 
 .look__text_header {
-  font: 40px/41px montserratbold, arial, helvetica, sans-serif;
+  font: 40px/41px 'montserratbold', arial, helvetica, sans-serif;
   font-weight: 700;
   margin-top: 296px;
   width: 390px;
@@ -298,7 +302,7 @@ body {
 }
 
 .look__text_subtitle {
-  font: 16px/16px montserratbold, arial, helvetica, sans-serif;
+  font: 16px/16px 'montserratbold', arial, helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: -19px;
@@ -308,7 +312,7 @@ body {
 }
 
 .look__text_text {
-  font: 15px/21px montserratregular, arial, helvetica, sans-serif;
+  font: 15px/21px 'montserratregular', arial, helvetica, sans-serif;
   font-weight: 400;
   margin-top: 33px;
   letter-spacing: 0.07em;
@@ -332,7 +336,7 @@ body {
 }
 
 .look__button_add {
-  font: 14px montserratregular, arial, helvetica, sans-serif;
+  font: 14px 'montserratregular', arial, helvetica, sans-serif;
   font-weight: 500;
   width: 253px;
   height: 44px;
@@ -352,7 +356,7 @@ body {
 }
 
 .look__button-next_text {
-  font: 13px/16px montserratregular, arial, helvetica, sans-serif;
+  font: 13px/16px 'montserratregular', arial, helvetica, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   width: 267px;
@@ -371,7 +375,7 @@ body {
 }
 
 .footer__text {
-  font: 13px/16px montserratregular, arial, helvetica, sans-serif;
+  font: 13px/16px 'montserratregular', arial, helvetica, sans-serif;
   font-weight: 500;
   width: 112px;
 }
@@ -446,6 +450,39 @@ body {
   }
 }
 
+@media screen and (max-width: 1213px) {
+  .bag__image_pink {
+    width: 69%;
+  }
+
+  .bag__image_grey {
+    margin-left: 68px;
+  }
+
+  .bag__text {
+    transform: translateX(-7px);
+  }
+
+  .bag__text_header,
+  .bag__text_subtitle,
+  .bag__text_text {
+    margin-left: 66px;
+  }
+
+  .bag__text-price {
+    margin-top: -186px;
+    margin-left: 302px;
+    margin-bottom: 79px;
+  }
+
+  .bag__button-next {
+    transform: translate(-102px, 382px);
+  }
+
+  .footer {
+    transform: translateX(-119%);
+  }
+}
 
 @media screen and (max-width: 1124px) {
   .main {
@@ -572,10 +609,11 @@ body {
 
   .bag__text-price {
     margin-left: 290px;
+    margin-top: -188px;
   }
 
   .bag__button-next {
-    transform: translate(-103px, 382px);
+    transform: translate(-120px, 382px);
   }
 
   .bag__button-next_image {
@@ -587,7 +625,34 @@ body {
   }
 }
 
-@media screen and (max-width: 918px) {
+@media screen and (max-width:952px) {
+  .bag__image_pink {
+    width: 83%;
+    margin-left: -217px;
+  }
+
+  .bag__text-price {
+    margin-bottom: 41px;
+  }
+
+  .look__image {
+    padding-left: 17px;
+  }
+
+  .look__button-next {
+    margin-left: -164px;
+  }
+
+  .look__button-next_image {
+    margin-left: -26px;
+  }
+
+  .footer {
+    transform: translateX(-269px);
+  }
+}
+
+@media screen and (max-width: 935px) {
   .main-content__button_another {
     position: relative;
     z-index: 2;
@@ -646,6 +711,96 @@ body {
 
   .footer {
     transform: translateX(-260px);
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .main-content__button {
+    margin-left: 51%;
+  }
+
+  .main-content__button_arrow {
+    margin-left: -62px;
+  }
+
+  .bag__image_grey {
+    visibility: hidden;
+  }
+
+  .bag__image_pink{
+    width: 98%;
+    margin-left: -240px;
+  }
+
+  .look__image {
+    margin-left: -13px;
+  }
+
+  .look__text {
+    background-size: 379px 321px;
+  }
+
+  .look__button {
+    margin-left: 6px;
+  }
+
+  .look__button-next {
+    margin-left: -156px;
+  }
+
+  .footer {
+    transform: translateX(-292px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-content__button {
+    margin-left: 48%;
+  }
+
+  .main-content__button_arrow {
+    margin-left: -66px;
+  }
+
+  .bag__text {
+    width: 417px;
+  }
+
+  .bag__text_text {
+    width: 360px;
+  }
+
+  .look__text {
+    background-size: 310px 321px;
+  }
+
+  .look__text_header {
+    font-size: 29px;
+  }
+
+  .look__text_subtitle {
+    font-size: 13px;
+  }
+
+  .look__text_text {
+    width: 252px;
+  }
+
+  .look__button {
+    visibility: hidden;
+  }
+
+  .look__button_add {
+    visibility: visible;
+    margin-left: -76px;
+  }
+
+  .look__button-next {
+    margin-left: -196px;
+  }
+
+  .look__button-next_image {
+    margin-top: -23px;
   }
 }
 
@@ -756,49 +911,49 @@ body {
     background-position: 23px 524px;
     background-size: 637px 563px;
     position: absolute;
-    margin-left: -46px;
+    margin-left: 68px;
     width: 637px;
   }
 
   .bag__text_header {
   	font-size: 44px;
     margin-top: 563px;
-    margin-left: -13px;
+    margin-left: 62px;
   }
 
   .bag__text-price {
-    margin-left: -73px;
-    margin-top: 844px;
+    margin-left: 395px;
+    margin-top: 671px;
     font-size: 42px;
     width: 76px;
   }
 
   .bag__text_subtitle {
   	font-size: 20px;
-    margin-left: -7px;
+    margin-left: 65px;
     margin-top: 611px;
   }
 
   .bag__text_text {
   	font-size: 20px;
     margin-top: 656px;
-    margin-left: -31px;
+    margin-left: 65px;
     line-height: 25px;
     width: 507px;
     letter-spacing: 0.01em;
   }
 
   .bag__button-image {
-    transform: translate(-90px, -297px);
+    transform: translate(7px, 360px);
     justify-content: space-between;
-    margin-left: 24px;
+    margin-left: 18px;
   }
 
   .bag__button_add {
-  	margin-left: -319px;
+    margin-left: 88px;
     width: 518px;
     height: 73px;
-    margin-top: 1141px;
+    margin-top: 951px;
     font-size: 27px;
   }
 
@@ -811,7 +966,7 @@ body {
   .look__image {
   	width: 703px;
     height: 521px;
-    margin-left: -27px;
+    margin-left: 2px;
     margin-top: 34px;
     z-index: 2;
     position: absolute;
@@ -888,7 +1043,7 @@ body {
 
 @media screen and (max-width: 588px) {
   .bag__text {
-    transform: translateX(109px);
+    transform: translateX(-9px);
   }
 
   .bag__text_header,
@@ -967,7 +1122,7 @@ body {
   .bag__image_pink {
     width: 222px;
     height: 333px;
-    margin-left: -230px;
+    margin-left: -214px;
     margin-top: -61px;
   }
 
@@ -987,10 +1142,10 @@ body {
   }
 
   .bag__text-price {
-    margin-left: -86px;
+    margin-left: 189px;
     width: 52px;
-    margin-top: 409px;
-    font-size: 23px;
+    margin-top: -59px;
+    font-size: 21px;
   }
 
   .bag__text_subtitle {
@@ -1008,16 +1163,23 @@ body {
   }
 
   .bag__button-image {
-    transform: translate(-99px, -231px);
-    margin-left: -12px;
-    font-size: 103px;
+    width: 26px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 119px;
+    margin-left: 11px;
+    align-items: center;
+    padding: 5px;
+    transform: scale(0.5, 0.5);
+      -ms-transform: scale(0.5, 0.5);
+      -webkit-transform: scale(0.9, 0.9);
   }
 
   .bag__button_add {
-  	margin-left: -229px;
+    margin-left: 46px;
     width: 260px;
     height: 38px;
-    margin-top: 659px;
+    margin-top: 190px;
     font-size: 14px;
   }
 
@@ -1030,15 +1192,15 @@ body {
   .look__image {
   	width: 351px;
     height: 259px;
-    margin-left: -38px;
-    margin-top: 18px;
+    margin-left: -12px;
+    margin-top: 17px;
   }
 
   .look__background {
     margin-top: -18px;
     height: 598px;
     width: 41px;
-    margin-left: 96px;
+    margin-left: 95px;
   }
 
   .look__text {
@@ -1072,7 +1234,7 @@ body {
 
   .look__button_add {
   	transform: translateY(-31px);
-    margin-left: -99px;
+    margin-left: -87px;
     width: 261px;
     font-size: 14px;
     height: 39px;
