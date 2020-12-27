@@ -46,6 +46,7 @@ body {
   height: 92px;
   width: 92px;
   padding: 0;
+  cursor: pointer;
 }
 
 .header__menu:before,
@@ -103,6 +104,7 @@ body {
   width: 203px;
   text-transform: uppercase;
   transform: translate(-5px);
+  cursor: pointer;
 }
 
 .main-content__button_another {
@@ -115,6 +117,7 @@ body {
   height: 0;
   width: 0;
   transform: translate(24px, 1px);
+  cursor: pointer;
 }
 
 .main__vector-image {
@@ -217,6 +220,7 @@ body {
   text-align: end;
   margin-top: 127px;
   margin-left: 56px;
+  cursor: pointer;
 }
 
 .bag__button_add {
@@ -229,6 +233,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   transform: translateY(-221px);
+  cursor: pointer;
 }
 
 .bag__button-image {
@@ -239,6 +244,7 @@ body {
     border: 0;
     transform: translate(23px, -70px);
     width: 47px;
+    cursor: pointer;
 }
 
 .bag__button-next {
@@ -248,6 +254,7 @@ body {
   display: flex;
   height: 17px;
   width: 10px;
+  cursor: pointer;
 }
 
 .bag__button-next_text {
@@ -334,6 +341,7 @@ body {
   text-align: end;
   margin-top: 40px;
   margin-left: 46px;
+  cursor: pointer;
 }
 
 .look__button_add {
@@ -346,6 +354,7 @@ body {
   text-transform: uppercase;
   margin-left: 10px;
   transform: translateY(-1px);
+  cursor: pointer;
 }
 
 .look__button-next {
@@ -354,6 +363,7 @@ body {
   background: none;
   display: flex;
   height: 17px;
+  cursor: pointer;
 }
 
 .look__button-next_text {
@@ -363,6 +373,7 @@ body {
   width: 267px;
   letter-spacing: 0.04em;
   margin-left: -259px;
+  cursor: pointer;
 }
 
 .look__button-next_image {
@@ -386,6 +397,16 @@ body {
   margin-left: 10px;
   width: 90px;
   height: 24px;
+}
+
+.main-content__button:hover,
+.main-content__button_another:hover,
+.bag__button_add:hover {
+  background: #ded3d3;
+}
+
+.look__button_add:hover {
+  background: #e3bcbc;
 }
 
 @media screen and (max-width: 1281px) {
@@ -771,8 +792,13 @@ body {
     width: 360px;
   }
 
+  .bag__text-price {
+    width:20px;
+  }
+
   .look__text {
     background-size: 310px 321px;
+    width: 317px;
   }
 
   .look__text_header {
@@ -797,11 +823,12 @@ body {
   }
 
   .look__button-next {
-    margin-left: -196px;
+    margin-left: -102px;
   }
 
   .look__button-next_image {
     margin-top: -23px;
+    margin-left: -161px;
   }
 }
 
