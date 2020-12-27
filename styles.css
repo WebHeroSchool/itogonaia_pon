@@ -876,7 +876,7 @@ body {
 
 @media screen and (max-width: 856px) {
   .look__text {
-  	width: 375px;
+  	width: 361px;
   }
 
   .look__text_header,
@@ -886,6 +886,23 @@ body {
 
   .look__text_text {
   	width: 357px;
+  }
+
+  .look__button {
+  	margin-left: 0px;
+  }
+
+  .look__button-next_image {
+  	margin-left: -32px;
+  }
+
+  .look__button-next {
+    margin-left: -102px;
+  }
+
+  .look__button-next_image {
+    margin-top: -23px;
+    margin-left: -161px;
   }
 }
 
@@ -952,14 +969,6 @@ body {
   .look__text_subtitle,
   .look__text_text {
     width: 290px;
-  }
-  .look__button-next {
-    margin-left: -102px;
-  }
-
-  .look__button-next_image {
-    margin-top: -23px;
-    margin-left: -161px;
   }
 }
 
